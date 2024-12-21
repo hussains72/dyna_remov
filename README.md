@@ -1,5 +1,5 @@
 # dyna_remov
-
+Masking the dynamic object
 run the c++ file
 '''
 g++ dyna_cpp.cc -o dyna_cpp $(pkg-config --cflags --libs opencv4)
@@ -10,3 +10,4 @@ run the python file
 '''
 python3 dyna_python.py
 '''
+
